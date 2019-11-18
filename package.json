@@ -1,0 +1,28 @@
+{
+  "name": "github-store",
+  "version": "1.0.0",
+  "description": "A test for github store",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Never13zt/pubGithubDemo.git"
+  },
+  "keywords": [
+    "Github",
+    "Store",
+    "Operator",
+    "Test"
+  ],
+  "author": "ZT1921",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Never13zt/pubGithubDemo/issues"
+  },
+  "homepage": "https://github.com/Never13zt/pubGithubDemo#readme",
+  "dependencies": {
+    "unique-random-array": "^2.0.0"
+  }
+}
