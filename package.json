@@ -1,14 +1,16 @@
 {
   "name": "github-zt-store",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "A test for github store",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:dev": "mocha index.test.js -w --check-leaks",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Never13zt/pubGithubDemo.git"
+    "url": "https://github.com/Never13zt/pubGithubDemo.git"
   },
   "keywords": [
     "Github",
@@ -23,6 +25,14 @@
   },
   "homepage": "https://github.com/Never13zt/pubGithubDemo#readme",
   "dependencies": {
-    "unique-random-array": "^2.0.0"
+    "depcheck": "^0.9.1",
+    "semantic-release-cli": "^5.2.3",
+    "unique-random-array": "^2.0.0",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "semantic-release": "^15.13.31"
   }
 }
